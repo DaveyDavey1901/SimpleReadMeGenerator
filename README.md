@@ -1,18 +1,22 @@
 # Simple Readme Generator
 
 ## Table of Contents:
-  1. [Description](#description) 
+  1. [Description](#Description) 
   2. [Installation](#Installation)
   3. [Usage](#Usage)  
-  4. [Contributing](#Contributing)
-  5. [GitHub Repository](#repository)
+  4. [Contributing](#Contributing-People-and-Resources)
+  5. [GitHub Repository](#Repository-Details-and-Link)
   6. [Tests](#Tests)
-  4. [License](#License)
-  7. [GitHub](#GitHub)
+  4. [License](#License-Link)
+  7. [GitHub](#GitHub-Account)
   8. [E-mail](#E-mail)
 
 ## Description
-I have created a command-line readme generator. You will be presented a series of questions after which a professional README.md will be created.  This is done using node index.js in the terminal  
+I have created a command-line readme generator. You will be presented a series of questions after which a professional README.md will be created.  This is done using node index.js in the terminal 
+
+|<img src="utils/David Davies Readme Generator.gif" width="600">| 
+
+[Click Here to View the output Readme File from video](https://github.com/DaveyDavey1901/SimpleReadMeGenerator/blob/fa46c92dc5abade82e4b4a60c17fca92b1c1d619/test_README.md)
 
 ## Installation
 To install run the program by first installing' npm install inquirer'
