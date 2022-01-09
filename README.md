@@ -12,7 +12,11 @@
   8. [E-mail](#E-mail)
 
 ## Description
-I have created a command-line readme generator. You will be presented a series of questions after which a professional README.md will be created.  This is done using node index.js in the terminal  
+I have created a command-line readme generator. You will be presented a series of questions after which a professional README.md will be created.  This is done using node index.js in the terminal 
+
+|<img src="utils/David Davies Readme Generator.gif" width="600">| 
+
+[Click Here to View the output Readme File from video](https://github.com/DaveyDavey1901/SimpleReadMeGenerator/blob/fa46c92dc5abade82e4b4a60c17fca92b1c1d619/test_README.md)
 
 ## Installation
 To install run the program by first installing' npm install inquirer'
