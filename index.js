@@ -42,6 +42,11 @@ const questions = [
   },
   {
     type: "input",
+    message: "How do you run tests",
+    name: "tests",
+  },
+  {
+    type: "input",
     message: "How do people update the repository?",
     name: "repository",
   },

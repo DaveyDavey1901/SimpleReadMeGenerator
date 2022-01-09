@@ -25,7 +25,7 @@ function generateMarkdown(data) {
   2. [Installation](#Installation)
   3. [Usage](#Usage)  
   4. [Contributing](#Contributing)
-  5. [GitHub Repository](#GitHub repository)
+  5. [GitHub Repository](#repository)
   6. [Tests](#Tests)
   4. [License](#License)
   7. [GitHub](#GitHub)
@@ -40,6 +40,10 @@ ${data.usage}
 ${data.contributing}
 ## Repository Details and Link.
 ${data.repository}
+## Tests
+For testing purposes, run the following command:
+${data.tests}
+
 ## License Link
 ${renderlicenseBadge(data)} Click Badge for License Details.
 
@@ -49,6 +53,8 @@ contact me if you have any questions about the readme generator.
 ## GitHub Account
 ${data.github}
 ## E-mail
-Drop me an enail at ${data.email} if you would like to know more or would like to contribute.` 
+Drop me an enail at ${
+    data.email
+  } if you would like to know more or would like to contribute.`; 
 }
 module.exports = generateMarkdown;
