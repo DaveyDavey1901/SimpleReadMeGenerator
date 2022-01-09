@@ -24,9 +24,10 @@ function generateMarkdown(data) {
   1. [Description](#description) 
   2. [Installation](#Installation)
   3. [Usage](#Usage)  
-  4. [License](#License)
-  5. [Contributing](#Contributing)
+  4. [Contributing](#Contributing)
+  5. [GitHub Repository](#GitHub repository)
   6. [Tests](#Tests)
+  4. [License](#License)
   7. [GitHub](#GitHub)
   8. [E-mail](#E-mail)
 ## Description
@@ -35,14 +36,17 @@ ${data.description}
 ${data.installation}
 ## Usage
 ${data.usage}
-## Contributing
+## Contributing People / Resources
 ${data.contributing}
-## repository
+## Repository Details and Link.
 ${data.repository}
-## License
+## License Link
 ${renderlicenseBadge(data)} Click Badge for License Details.
+
 ## Questions:
-## GitHub
+contact me if you have any questions about the readme generator.
+
+## GitHub Account
 ${data.github}
 ## E-mail
 Drop me an enail at ${data.email} if you would like to know more or would like to contribute.` 
