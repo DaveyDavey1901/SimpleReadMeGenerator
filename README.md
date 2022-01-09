@@ -25,7 +25,6 @@ Myself David_Davies
 
 ## Repository Details and Link.
 https://github.com/DaveyDavey1901/SimpleReadMeGenerator
-
 If you would like to update the repository just make a request and if your updates would benefit the repo ill allow you access.
 
 ## Tests
