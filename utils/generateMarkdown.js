@@ -21,14 +21,14 @@ function renderlicenseBadge(data) {
 function generateMarkdown(data) {
 	return `# ${data.title}
 ## Table of Contents:
-  1. [Description](#description) 
+  1. [Description](#Description) 
   2. [Installation](#Installation)
   3. [Usage](#Usage)  
-  4. [Contributing](#Contributing)
-  5. [GitHub Repository](#repository)
+  4. [Contributing](#Contributing-and-Resources
+  5. [GitHub Repository](#Repository-Details-Link)
   6. [Tests](#Tests)
-  4. [License](#License)
-  7. [GitHub](#GitHub)
+  4. [License](#License-Link)
+  7. [GitHub](#GitHub-Account)
   8. [E-mail](#E-mail)
 ## Description
 ${data.description} 
@@ -36,7 +36,7 @@ ${data.description}
 ${data.installation}
 ## Usage
 ${data.usage}
-## Contributing People / Resources
+## Contributing People and Resources
 ${data.contributing}
 ## Repository Details and Link.
 ${data.repository}
