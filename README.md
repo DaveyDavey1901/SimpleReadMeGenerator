@@ -46,4 +46,4 @@ contact me if you have any questions about the readme generator.
 https://github.com/DaveyDavey1901
 
 ## E-mail
-Drop me an enail at NotReal@mail.com  if you would like to know more or would like to contribute.
+Drop me an email at NotReal@mail.com  if you would like to know more or would like to contribute.
