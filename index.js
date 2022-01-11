@@ -11,7 +11,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is the description of your project?",
+    message: "Give a brief description of your project?",
     name: "description",
   },
   {
@@ -21,7 +21,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "How do users use your application?",
+    message: "How do you use your application?",
     name: "usage",
   },
   {
@@ -37,17 +37,17 @@ const questions = [
   },
   {
     type: "input",
-    message: "How many people contributed to the project?",
+    message: "List the people that contributed to the application and sites used?",
     name: "contributing",
   },
   {
     type: "input",
-    message: "How do you run tests",
+    message: "How do you run tests on your application",
     name: "tests",
   },
   {
     type: "input",
-    message: "How do people update the repository?",
+    message: "How can people update the repository?",
     name: "repository",
   },
   {
@@ -66,13 +66,13 @@ const questions = [
 function writeToFile(fileName, data) {
   fs.writeFile("./README.md", data, (err) => {
     if (err) throw err;
-    console.log("you have successfully created a README.md");
+    console.log("you have now successfully created a README.md");
   });
 }
 // A function to initialize app
 function init() {
   inquirer.prompt(questions).then((userResponse) => {
-    console.log("Generating Your Readme Now...");
+    console.log("Your Readme is being generated...");
     writeToFile("README.md", generateMarkdown({ ...userResponse }));
   });
 }
