@@ -47,13 +47,15 @@ ${data.tests}
 ## License Link
 ${renderlicenseBadge(data)} Click Badge for License Details.
 
+
+
 ## Questions:
 contact me if you have any questions about the readme generator.
 
 ## GitHub Account
 ${data.github}
 ## E-mail
-Drop me an enail at ${
+Drop me an email at ${
     data.email
   } if you would like to know more or would like to contribute.`; 
 }
