@@ -19,7 +19,7 @@ function renderlicenseBadge(data) {
 };
 
 function generateMarkdown(data) {
-	return `# ${data.title}
+	return `#:small_orange_diamond: ${data.title}
 ## Table of Contents:
   1. [Description](#Description) 
   2. [Installation](#Installation)
@@ -30,31 +30,31 @@ function generateMarkdown(data) {
   4. [License](#License-Link)
   7. [GitHub](#GitHub-Account)
   8. [E-mail](#E-mail)
-## Description
+## :small_blue_diamond: Description
 ${data.description} 
-## Installation
+## :small_blue_diamond: Installation
 ${data.installation}
-## Usage
+## :small_blue_diamond: Usage
 ${data.usage}
-## Contributing People and Resources
+## :small_blue_diamond: Contributing People and Resources
 ${data.contributing}
-## Repository Details and Link.
+## :small_blue_diamond: Repository Details and Link.
 ${data.repository}
-## Tests
+## :small_blue_diamond: Tests
 For testing purposes, run the following command:
 ${data.tests}
 
-## License Link
+## :small_blue_diamond: License Link
 ${renderlicenseBadge(data)} Click Badge for License Details.
 
 
 
-## Questions:
+## :small_blue_diamond: Questions:
 contact me if you have any questions about the readme generator.
 
-## GitHub Account
+## :small_blue_diamond: GitHub Account
 ${data.github}
-## E-mail
+## :small_blue_diamond: E-mail
 Drop me an email at ${
     data.email
   } if you would like to know more or would like to contribute.`; 
